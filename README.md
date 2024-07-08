@@ -2,18 +2,6 @@
 
 This project is a simple, static website designed to provide an overview of Python programming language concepts, including data types, control flow, functions, modules, and object-oriented programming (OOP).
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Overview
-
 PyLiteDocs is a lightweight and easy-to-navigate resource for beginners and intermediate programmers. It offers concise explanations and code examples for various Python concepts.
 
 ## Features
