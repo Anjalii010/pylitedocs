@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Python Documentation</title>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	<div class="main-body">
+		<nav id="navbar">
+			<header>Documentation Menu</header>
+			<a href="#Intro" class="nav-link">What is Python</a>
+			<a href="#DataTypes" class="nav-link">Data Types</a>
+			<a href="#ControlFlow" class="nav-link">Control Flow</a>
+			<a href="#Functions" class="nav-link">Functions</a>
+			<a href="#Modules" class="nav-link">Modules</a>
+			<a href="#OOP" class="nav-link">Object-Oriented Programming</a>
+		</nav>
+
+		<main id="main-doc">
+			<section class="main-section" id="Intro">
+				<header>What is Python?</header>
+				<p>
+					Python is a high-level, interpreted, and general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming.
+				</p>
+				<p>
+					Python is widely used for web development, data analysis, artificial intelligence, scientific computing, and more. Its extensive standard library and the availability of third-party modules make it a versatile language.
+				</p>
+				<p>The “Hello, World!” program is the first step towards learning any programming language. In Python, it can be written as:</p>
+				<code>
+					<pre>
+print("Hello, World!")
+					</pre>
+				</code>
+			</section>
+
+			<section class="main-section" id="DataTypes">
+				<header>Data Types</header>
+				<p>
+					Python supports various data types, including:
+				</p>
+				<ul>
+					<li><b>Numbers:</b> int, float, complex</li>
+					<li><b>Strings:</b> str</li>
+					<li><b>Lists:</b> list</li>
+					<li><b>Tuples:</b> tuple</li>
+					<li><b>Dictionaries:</b> dict</li>
+					<li><b>Sets:</b> set</li>
+				</ul>
+			</section>
+
+			<section class="main-section" id="ControlFlow">
+				<header>Control Flow</header>
+				<p>
+					Python provides several control flow tools to manage the order in which your code is executed:
+				</p>
+				<ul>
+					<li><b>Conditional Statements:</b> if, elif, else</li>
+					<li><b>Loops:</b> for, while</li>
+					<li><b>Comprehensions:</b> list, dictionary, set comprehensions</li>
+					<li><b>Exception Handling:</b> try, except, finally</li>
+				</ul>
+			</section>
+
+			<section class="main-section" id="Functions">
+				<header>Functions</header>
+				<p>
+					Functions are defined using the <code>def</code> keyword. They are a way to encapsulate code into reusable blocks.
+				</p>
+				<code>
+					<pre>
+def greet(name):
+	print(f"Hello, {name}!")
+
+greet("Alice")
+					</pre>
+				</code>
+			</section>
+
+			<section class="main-section" id="Modules">
+				<header>Modules</header>
+				<p>
+					Modules in Python are files containing Python code. They can define functions, classes, and variables that you can include in your project using the <code>import</code> statement.
+				</p>
+				<code>
+					<pre>
+# math module
+import math
+
+print(math.sqrt(16))
+					</pre>
+				</code>
+			</section>
+
+			<section class="main-section" id="OOP">
+				<header>Object-Oriented Programming</header>
+				<p>
+					Python supports Object-Oriented Programming (OOP) with classes and objects. OOP is a programming paradigm based on the concept of "objects", which are data structures that contain data and methods.
+				</p>
+				<p>
+					<b>Class:</b> A blueprint for creating objects. It defines a set of attributes and methods that the created objects will have.
+				</p>
+				<p>
+					<b>Object:</b> An instance of a class. It contains the data and methods defined by the class.
+				</p>
+				<code>
+					<pre>
+class Dog:
+	def __init__(self, name, age):
+		self.name = name
+		self.age = age
+
+	def bark(self):
+		print(f"{self.name} says woof!")
+
+dog1 = Dog("Buddy", 3)
+dog1.bark()
+					</pre>
+				</code>
+			</section>
+		</main>
+	</div>
+</body>
+</html>
